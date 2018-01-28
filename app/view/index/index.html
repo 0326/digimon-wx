@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="screen-orientation" content="portrait"><!-- uc强制竖屏 -->
+  <meta name="x5-orientation" content="portrait"><!-- QQ强制竖屏 -->
+  <title>数码宝贝神圣计划I</title>
+  <style>
+    html, body {
+      position:relative;margin:0;padding:0;height:100%;display:block;overflow:hidden;background-color:#FFFFFF;font-family:sans-serif;
+    }
+    .title-logo {
+      width: 60%;
+    }
+    .launch-page {
+      position: relative;
+      box-sizing: border-box;
+      height: 100%;
+      padding-top: 35vh;
+      text-align: center;
+      z-index: 10;
+      background: #FFFFFF;
+    }
+    
+    @keyframes fadeOutUp {
+      from { opacity: 1; }
+      to { opacity: 0; }
+    }
+    .fadeOutUp {
+      animation-name: fadeOutUp;
+    }
+    .animated {
+      animation-duration: 2s;
+      animation-fill-mode: both;
+    }
+  </style>
+  <script src="//cdn.bootcss.com/pixi.js/4.7.0/pixi.min.js"></script>
+</head>
+<body>
+  <div id="J-launchPage" class="launch-page animated">
+    <img class="title-logo" src="/title.png" alt="数码宝贝神圣计划I">
+  </div>
+</body>
+</html>

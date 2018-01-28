@@ -2,6 +2,8 @@ logs/
 npm-debug.log
 yarn-error.log
 node_modules/
+app/view/index/node_modules/
+app/view/index/static/
 package-lock.json
 yarn.lock
 coverage/
@@ -11,3 +13,4 @@ run/
 .DS_Store
 *.sw*
 *.un~
+*.psd
